@@ -3,7 +3,7 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Live on Replit
-head to link `https://weather-app.aryank11.repl.co`
+head to link [https://weather-app.aryank11.repl.co](https://weather-app.aryank11.repl.co)
 
 ## Description
 
