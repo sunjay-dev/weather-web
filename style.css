@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url('background-image.jpg'); /* Replace with your background image path */
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Rest of your CSS styles... */
+
+
+h1 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Rest of your CSS styles... */
+
+#h3 {
+  padding: 8px;
+  border: none;
+  border-bottom: 2px solid #3498db;
+  outline: none;
+  color: #333;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+#h3::placeholder {
+  color: #999;
+}
+
+#h3:focus {
+  border-color: #2980b9;
+}
+
+/* ... (other styles) */
+
+.weather-info {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  animation: fadeIn 1s;
+}
+
+.recorded-time {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* ... (other styles) */
+@media (max-width: 768px) {
+  .recorded-time {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+}
+
+
+
+
+#button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#button:hover {
+  background-color: #2980b9;
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  animation: fadeIn 1s;
+}
+
+.city-image {
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

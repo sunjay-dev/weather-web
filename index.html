@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Weather App</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 style="color: white;">Weather APP</h1>
+    <input id="h3" placeholder="Enter Pakistani city">
+    <button id="button" onclick="getCity()">Search</button>
+    <div class="weather-info">
+      <p id="p1" >Temperature: <span id="temp"></span>°C</p>
+      <p id="p2" >Humidity: <span id="humidity"></span>%</p>
+      <p id="p3" >Wind Speed: <span id="windSpeed"></span> km/h <i class="fas fa-wind"></i></p>
+   
+<p id="recordedTime" class="recorded-time">Time: <span id="time"></span></p>
+
+
+
+    </div>
+    <div class="city-image">
+      <p style="color: white;">Made with &#10084; by gpt-3</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
